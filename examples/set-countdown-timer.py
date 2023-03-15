@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import rv3028
+import rv3032
 import time
 
 print("""set-countdown-timer.py - Set the periodic countdown timer to 5 x 1 second ticks and waits for alarm to be triggered.
@@ -10,7 +10,7 @@ Press Ctrl+C to exit.
 """)
 
 # Create RV3028 instance
-rtc = rv3028.RV3028()
+rtc = rv3032.RV3032()
 
 countdown_time = 5
 

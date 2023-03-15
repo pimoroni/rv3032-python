@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import rv3028
+import rv3032
 import time
 
 print("""get-time.py - Gets time and date from the RTC.
@@ -10,7 +10,7 @@ Press Ctrl+C to exit.
 """)
 
 # Create RV3028 instance
-rtc = rv3028.RV3028()
+rtc = rv3032.RV3032()
 
 # Switches RTC to backup battery if VCC goes below 2V
 # Other settings: 'switchover_disabled', 'direct_switching_mode', 'standby_mode'

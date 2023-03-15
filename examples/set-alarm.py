@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import rv3028
+import rv3032
 import time
 import datetime
 
@@ -12,7 +12,7 @@ Press Ctrl+C to exit.
 """)
 
 # Create RV3028 instance
-rtc = rv3028.RV3028()
+rtc = rv3032.RV3032()
 
 try:
     rtc.clear_alarm_interrupt()
