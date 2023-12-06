@@ -1,4 +1,0 @@
-[run]
-source = rv3028
-omit =
-    .tox/*

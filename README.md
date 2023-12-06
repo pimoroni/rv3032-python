@@ -37,4 +37,3 @@ This library depends upon smbus:
 sudo apt install python-smbus   # Python 2
 sudo apt install python3-smbus  # Python 3
 ```
-
