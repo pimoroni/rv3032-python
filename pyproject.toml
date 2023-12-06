@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "rv3032"
 dynamic = ["version", "readme"]
-description = "Python library for the RV3032 Temperature Compansated Real Time Clock"
+description = "Python library for the RV3032 Temperature Compensated Real Time Clock"
 license = {file = "LICENSE"}
 requires-python = ">= 3.7"
 authors = [
