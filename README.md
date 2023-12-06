@@ -1,13 +1,13 @@
-# RV3028 Real Time Clock Breakout
+# RV3032 Real Time Clock Breakout
 
-[![Build Status](https://shields.io/github/workflow/status/pimoroni/rv3028-python/Python%20Tests.svg)](https://github.com/pimoroni/rv3028-python/actions/workflows/test.yml)
-[![Coverage Status](https://coveralls.io/repos/github/pimoroni/rv3028-python/badge.svg?branch=master)](https://coveralls.io/github/pimoroni/rv3028-python?branch=master)
-[![PyPi Package](https://img.shields.io/pypi/v/rv3028.svg)](https://pypi.python.org/pypi/rv3028)
-[![Python Versions](https://img.shields.io/pypi/pyversions/rv3028.svg)](https://pypi.python.org/pypi/rv3028)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/pimoroni/rv3032-python/test.yml?branch=main)](https://github.com/pimoroni/rv3032-python/actions/workflows/test.yml)
+[![Coverage Status](https://coveralls.io/repos/github/pimoroni/rv3032-python/badge.svg?branch=main)](https://coveralls.io/github/pimoroni/rv3032-python?branch=main)
+[![PyPi Package](https://img.shields.io/pypi/v/rv3032.svg)](https://pypi.python.org/pypi/rv3032)
+[![Python Versions](https://img.shields.io/pypi/pyversions/rv3032.svg)](https://pypi.python.org/pypi/rv3032)
 
 # Note
 
-This is just a Python library to interface with the RV3028 and does not install the RTC as a time source for Raspbian.
+This is just a Python library to interface with the RV3032 and does not install the RTC as a time source for Raspbian.
 
 In order to set up as a RTC in Raspbian you will need to add something like the following to `/boot/config.txt`:
 
@@ -21,19 +21,10 @@ More information is available in the `i2c-rtc` dtoverlay documentation: https://
 
 Stable library from PyPi:
 
-* Just run `python3 -m pip install rv3028`
+* Just run `python3 -m pip install rv3032`
 
 Latest/development library from GitHub:
 
-* `git clone https://github.com/pimoroni/rv3028-python`
-* `cd rv3028-python`
-* `sudo ./install.sh --unstable`
-
-# Requirements
-
-This library depends upon smbus:
-
-```
-sudo apt install python-smbus   # Python 2
-sudo apt install python3-smbus  # Python 3
-```
+* `git clone https://github.com/pimoroni/rv3032-python`
+* `cd rv3032-python`
+* `./install.sh --unstable`
