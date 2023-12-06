@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
-import rv3032
-import time
 import datetime
+import time
+
+import rv3032
 
 print("""set-time.py - Sets RTC with current time for your system and
 enables battery backup to preserve the time when power is off.

@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-import rv3032
 import time
+
+import rv3032
 
 print("""get-time.py - Gets time and date from the RTC.
 
